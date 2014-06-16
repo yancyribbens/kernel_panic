@@ -1,1 +1,0 @@
-cmd_/home/wk/Documents/kernel_panic/woody/task01/hello-1.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.14.7-200.fc20.x86_64/scripts/module-common.lds --build-id  -o /home/wk/Documents/kernel_panic/woody/task01/hello-1.ko /home/wk/Documents/kernel_panic/woody/task01/hello-1.o /home/wk/Documents/kernel_panic/woody/task01/hello-1.mod.o
