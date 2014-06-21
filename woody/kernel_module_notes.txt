@@ -1,0 +1,9 @@
+### List of terminal commands for kernel module dev
+insmod "filename.ko" - program to insert a module into the linux kernel
+rmmod "filename" - remove a module from the linux kernel
+/proc/modules - lists all modules loaded into the kernel
+/var/log/messages - lists loading/unloading of modules?
+MODULE_LICENSE() - define license associated with module
+MODULE_DESCRIPTION() - add documentation to module
+MODULE_AUTHOR() - self-explanitory
+MODULE_SUPPORTED_DEVICE() - ...

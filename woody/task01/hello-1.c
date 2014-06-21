@@ -6,12 +6,12 @@
 
 int init_module(void)
 {
-	printk(KERN_INFO "Hello world l.\n");
+	printk(KERN_INFO "Hello world 1.\n");
 	
 	return 0;
 }
 
 void cleanup_module(void)
 {
-	printk(KERN_INFO "Goodbye World l.\n");
+	printk(KERN_INFO "Goodbye World 1.\n");
 }
