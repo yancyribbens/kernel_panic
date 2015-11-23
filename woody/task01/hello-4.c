@@ -13,17 +13,17 @@ static int hello4_data __initdata = 4;
 
 static int __init hello4_init(void)
 {
-	printk(KERN_INFO "Hello, world %d\n", hello3_data);
+	printk(KERN_INFO "Hello, world %d\n", hello4_data);
 	return 0;
 }
 
 static void __exit hello4_exit(void)
 {
-	printk(KERN_INFO "Buh-bye, world %d\n", hello3_data);
+	printk(KERN_INFO "Buh-bye, world %d\n", hello4_data);
 }
 
-module_init(hello3_init);
-module_exit(hello3_exit);
+module_init(hello4_init);
+module_exit(hello4_exit);
 
 /*
  * Makes the kernel happy!
